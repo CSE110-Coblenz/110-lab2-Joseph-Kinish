@@ -1,4 +1,8 @@
 const music: Array<string> = new Array("Rap", "RNB", "Jazz");
 
 
-console.log(music); 
+
+
+export default function logMessage(message: string): void {
+    console.log(music); 
+  }
