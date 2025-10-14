@@ -1,7 +1,9 @@
-import log from "./snacks";
+import log from './snacks';
+import { snacks } from './snacks';
+import { music } from './music';
+import { BOLD } from './animation'; 
 
-log("This is a default export! Please dont mind.");
 
-import log from "./music";
-
-log("This is a default export.");
+console.log(`\x1b[1m${BOLD}\x1b[0m`); 
+console.log(snacks)
+console.log(music)

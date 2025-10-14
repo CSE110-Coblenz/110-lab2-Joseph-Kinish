@@ -1,14 +1,12 @@
-const snacks: string[] = [
-    "Chips",
-    "Cookies",
-    "Cheetoes",
-    "Skittles",
-    "Chocolate"
-  ];
+export const snacks: string[] = [
+  "Chips",
+  "Cookies",
+  "Cheetoes",
+  "Skittles",
+  "Chocolate"
+];
 
-console.log(snacks);
-
+// The function now correctly uses the 'message' parameter
 export default function logMessage(message: string): void {
-    console.log(snacks); 
-    //trying to change file please
+  console.log(message); 
 }
