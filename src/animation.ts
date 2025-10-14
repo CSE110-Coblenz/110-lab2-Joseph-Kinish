@@ -1,4 +1,4 @@
-export const BOLD = "PARTY PARTY"
+export const BOLD = "PARTY PARTY PARTY"
 
 export default function logMessage(message: string): void {
     // Now, the function will print any message you pass to it in bold.
