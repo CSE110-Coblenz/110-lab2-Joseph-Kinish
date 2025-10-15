@@ -1,6 +1,9 @@
 export const snacks: string[] = [
   "Chips",
   "Cookies",
+  "Cheetoes",
+  "Skittles",
+  "Chocolate"
 ];
 
 // The function now correctly uses the 'message' parameter
